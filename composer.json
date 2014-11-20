@@ -1,0 +1,30 @@
+{
+    "name": "flyiing/widgets",
+    "keywords": ["yii2"],
+    "type": "yii2-extension",
+
+    "authors": [
+        {
+            "name": "Aleksander V. Dyomin",
+            "email": "aleksanderd@gmail.com"
+        }
+    ],
+
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+
+    "require": {
+        "bower-asset/select2": ">=3.5.2@stable",
+        "bower-asset/select2-bootstrap-css": ">=1.4.1@stable",
+        "bower-asset/bootstrap-touchspin": ">=3.0.1@stable",
+        "bower-asset/spectrum": ">=1.5.1@stable",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "flyiing\\widgets\\": ""
+        }
+    }
+}
