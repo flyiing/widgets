@@ -2,8 +2,6 @@
 
 namespace flyiing\widgets;
 
-use yii\helpers\Html;
-
 class TouchSpin extends \flyiing\widgets\base\JQueryInputWidget
 {
 

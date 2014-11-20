@@ -2,8 +2,6 @@
 
 namespace flyiing\widgets;
 
-use yii\helpers\Html;
-
 class Spectrum extends \flyiing\widgets\base\JQueryInputWidget
 {
 

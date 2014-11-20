@@ -2,8 +2,6 @@
 
 namespace flyiing\widgets;
 
-use yii\helpers\Html;
-
 class Select2 extends \flyiing\widgets\base\JQueryInputWidget
 {
 
