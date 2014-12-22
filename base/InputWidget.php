@@ -21,6 +21,7 @@ class InputWidget extends \yii\widgets\InputWidget
 
     public function run()
     {
+        Html::addCssClass($this->options, 'form-control');
         return Html::input(ArrayHelper::remove($this->options, 'type', 'text'),
             $this->name, $this->value, $this->options);
     }
